@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Quiz = () => {
+const Quiz = ({quiz}) => {
+
     return (
         <div>
-            <h2>this is a quiz</h2>
+            
         </div>
     );
 };

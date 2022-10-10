@@ -1,13 +1,15 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
+import React, { createContext } from 'react';
+import { Outlet, useLoaderData } from 'react-router-dom';
 import Header from '../Components/Header/Header';
 
+ export const CatagoryContext= createContext([])
 const Root = () => {
+ const catagoryQuizs= useLoaderData().data;
     return (
-        <div>
-            <Header></Header>
-            <Outlet></Outlet>
-        </div>
+       <CatagoryContext.Provider value={catagoryQuizs}>
+        <Header></Header>
+        <Outlet></Outlet>
+       </CatagoryContext.Provider>
     );
 };
 
