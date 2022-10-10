@@ -1,4 +1,4 @@
-
+import { EyeIcon } from '@heroicons/react/24/solid';
 import React from 'react';
 
 
@@ -13,11 +13,15 @@ const Question = ({pd}) => {
        alert('worng')
         }
     }
-    
+    // const hendlerView=(pd)=>{
+    //     console.log(pd)
+    // }
     return (
-        <div className='  mx-auto bg-slate-50 p-5 rounded-lg text-base  my-5 w-8/12 drop-shadow-lg 	'>
-            <h3 className='text-center pt-3 pb-5 font-bold sm:text-base'>
+        <div className='  mx-auto bg-slate-50 p-5 rounded-lg text-base  my-5 w-8/12 drop-shadow-lg'>
+           
+            <h3 className=' flex  justify-between text-center pt-3 pb-5 font-bold sm:text-base'>
                {pd.question}
+                <EyeIcon  className=" right-0 hover:text-black ml-2 h-6 w-6 text-blue-500"/>
             </h3>
             <div className='grid grid-cols-2 gap-3'>
                 {pd.options.map(option=>
