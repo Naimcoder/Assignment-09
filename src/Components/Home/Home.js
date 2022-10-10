@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { CatagoryContext } from '../../Layout/Root';
+import Card from '../Card/Card';
 import Head from '../Head/Head';
-import Quiz from '../Quiz/Quiz';
 
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
         <div className=''>
             <Head></Head>
             <div className='grid grid-cols-4 gap-4 w-10/12 mx-auto my-20'>
-                   {catagoryQuiz.map(quiz=><Quiz key={quiz.id} quiz={quiz}></Quiz>)}
+                   {catagoryQuiz.map(quiz=><Card key={quiz.id} quizs={quiz}></Card>)}
             </div>
           
         </div>
