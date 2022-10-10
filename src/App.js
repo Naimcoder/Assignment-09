@@ -24,7 +24,8 @@ function App() {
     {path:'/blog',element:<Blog/>}
    ]
   }
-  ]);
+  ])
+
   return (
     <div>
      <RouterProvider router={router}/>

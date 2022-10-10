@@ -1,16 +1,16 @@
-import { keyboard } from '@testing-library/user-event/dist/keyboard';
+
 import React from 'react';
-  import { toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+
 
 const Question = ({pd}) => {
     const {correctAnswer}=pd;
     const handlerCheck=(pd)=>{
         if( pd === correctAnswer){
-        //   alert(pd)
-          toast('hello')
+       alert('currect answer')
+       
         }else{
-            toast.warning('no right')
+    
+       alert('worng')
         }
     }
     
