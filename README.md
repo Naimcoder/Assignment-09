@@ -7,7 +7,7 @@ or...(https://edukul-quiz.netlify.app/)live link
 ![plot](./src/logo.png)
 
 ## Details about our Website..
-> How this website  was built?
+### How this website  was built?
 > * This is Website in create a React js or create-React-App
 > * This is Website second item in React Router
 > * Use Taliwind CSS For Styles and mamba ui,daisy componets used in website
