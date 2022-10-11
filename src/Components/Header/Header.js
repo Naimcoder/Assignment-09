@@ -8,16 +8,15 @@ const Header = () => {
   return (
     <div className=" px-4 py-5 bg-black shadow m-0 w-full  sm:max-w-xl  md:max-w-full  md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between">
-        <Link
+      <Link
           to="/"
           aria-label="Company"
           title="Company"
-          className="inline-flex items-center"
-        >
+          className="inline-flex items-center">
           <span className="ml-2 text-xl font-bold tracking-wide uppercase">
             <img className='w-40' src={logo} alt="" />
           </span>
-        </Link>
+       </Link>
         <ul className=' flex items-center hidden space-x-8 lg:flex'>
           <li>
             <Link

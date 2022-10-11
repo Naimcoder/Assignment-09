@@ -9,10 +9,11 @@ const Blog = () => {
 		<div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
 			<details>
 				<summary className="py-2 outline-none cursor-pointer focus:underline">What is the perpose of react router?</summary>
-				<div className="px-4 pb-4">
-					<p>React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
-Let us create a simple application to React to understand how the React Router works. The application will contain three components: home component, about a component, and contact component. We will use React Router to navigate between these components.</p>
-				</div>
+			<div className="px-4 pb-4">
+				<p>React Router is a standard library for routing in React. It enables the      navigation among views of various components in a React Application, allows  changing the browser URL, and keeps the UI in sync with the URL.
+                     Let us create a simple application to React to understand how the React Router works. The application will contain three components: home component, about a component, and contact component. We will use React Router to navigate between these components.
+					 </p>
+			</div>
 			</details>
 			<details>
 				<summary className="py-2 outline-none cursor-pointer focus:underline">How does context API works?</summary>
