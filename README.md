@@ -19,8 +19,8 @@ or...(https://edukul-quiz.netlify.app/)live link
 > * You can seletct any topics to learn and it will show instantly 
 > * you can see the correct ans before seleted any option.
 
-__My Website Full Page..__
-
+__-My Website Full Page..__
+![plot](./public/EduKul.png)
 | # setup:
 
 Fork [main]branch into your personal repository.Clone it local computer before staring develpment you shoule check it there are any errors
