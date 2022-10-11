@@ -5,7 +5,7 @@ or...(https://edukul-quiz.netlify.app/)live link
 
 | # setup:
 
-Fork [main]branch into your personal repository.Clone it local computer before staring develpment you shoule check it there are any errors
+Fork [main]branch into your personal repository
 ```
 $ git clone https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Naimcoder.git
 $ npm install or npm i
