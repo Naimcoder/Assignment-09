@@ -13,7 +13,7 @@ const Question = ({pd}) => {
        alert('worng')
         }
     }
-    const viewhendlr= ()=>{
+    const HendlerView = ()=>{
       alert(correctAnswer)
     }
     
@@ -22,7 +22,7 @@ const Question = ({pd}) => {
            
             <h3 className=' flex  justify-between text-center pt-3 pb-5 font-bold sm:text-base'>
                {pd.question}
-                <EyeIcon onClick={viewhendlr} className=" right-0 hover:text-black ml-2 h-6 w-6 text-blue-500"/>
+                <EyeIcon onClick={HendlerView} className=" right-0 hover:text-black ml-2 h-6 w-6 text-blue-500"/>
             </h3>
             <div className='grid md:grid-cols-2 gap-3'>
                 {pd.options.map(option=>
