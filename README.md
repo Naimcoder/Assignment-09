@@ -2,7 +2,7 @@
 
 
 WebSite  [Live Link]...
-or...(https://edukul-quiz.netlify.app/)Livelink
+or...(https://edukul-quiz.netlify.app/) Livelink
 
 ![plot](./src/logo.png)
 
