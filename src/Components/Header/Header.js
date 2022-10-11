@@ -29,14 +29,6 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link
-              to={`/quiz`}
-              aria-label="Our product"
-              title="Our product"
-              className="font-bold tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >
-              QUIZ
-            </Link>
           </li>
           <li>
             <Link
@@ -127,14 +119,6 @@ const Header = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        to="/quiz"
-                        aria-label="Our product"
-                        title="Our product"
-                        className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Quiz
-                      </Link>
                     </li>
                     <li>
                       <Link

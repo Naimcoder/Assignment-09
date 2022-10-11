@@ -7,6 +7,7 @@ import Quiz from './Components/Quiz/Quiz';
 import Statistics from './Components/Statistics/Statistics';
 import Blog from './Components/Blog/Blog';
 import ErrorPage from './Layout/ErrorPage';
+import Card from './Components/Card/Card';
 
 function App() {
   const router= createBrowserRouter([
@@ -17,15 +18,22 @@ function App() {
     loader: async()=>fetch('https://openapi.programming-hero.com/api/quiz'),
     children: [
     {path:'/',element:<Home/>},
+
     {path:'/home',element:<Home/>},
+
     {path:'/quiz/:id',
      loader:({params})=>{
       return fetch(` https://openapi.programming-hero.com/api/quiz/${params.id}`)
     },element:<Quiz/>},
+
     {path:'/statistics',element:<Statistics/>},
+
     {path:'/blog',element:<Blog/>}
+
+    
    ]
   }
+
   ])
 
   return (

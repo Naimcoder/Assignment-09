@@ -27,7 +27,7 @@ const Question = ({question}) => {
     }
     
     return (
-        <div className='  mx-auto bg-slate-50 p-5 rounded-lg text-base  my-5 w-8/12 drop-shadow-lg'>
+        <div className='  lg:mx-auto bg-slate-50 p-5 rounded-lg text-base  my-5 lg:w-8/12 drop-shadow-lg'>
     
             <h3 className=' flex  justify-between text-center pt-3 pb-5 font-bold sm:text-base'>
                {question.question}
