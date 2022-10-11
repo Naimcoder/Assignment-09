@@ -4,6 +4,8 @@
 WebSite Live Link [Live Link]...
 or...(https://edukul-quiz.netlify.app/)live link
 
+![plot](./src/logo.png)
+
 ## Details about our Website..
 > How this website  was built?
 > * Use Tailwind CSS frameworks for styles and used mamba ui,daisy ui components for better interface
@@ -18,7 +20,7 @@ or...(https://edukul-quiz.netlify.app/)live link
 > * you can see the correct ans before seleted any option.
 
 __My Website Full Page..__
-![plot](./public/build/Sonya-Swarm-Gym.ico)
+
 | # setup:
 
 Fork [main]branch into your personal repository.Clone it local computer before staring develpment you shoule check it there are any errors
