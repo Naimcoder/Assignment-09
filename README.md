@@ -13,13 +13,14 @@ or...(https://edukul-quiz.netlify.app/)live link
 > * Use Taliwind CSS For Styles and mamba ui,daisy componets used in website
 > * I have alert to used react sweetalert2
 > * I have used setup  data sent components in context api
-> * Used You websit in Header,Statistics, And Footer
+> * Used You website in Header,Statistics, And Footer
 
 
 ### what is the learn of website?
 > * website A poroper check can check how much the students are learning
 > *  There are Questions which you can selected to cheak the correct answer
 > * There is a separate option to find the correct anser
+> * You will be able to learn properle and you will be able to check how much you are learing immediately
 
 | # setup:
 
