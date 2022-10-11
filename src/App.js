@@ -7,7 +7,7 @@ import Quiz from './Components/Quiz/Quiz';
 import Statistics from './Components/Statistics/Statistics';
 import Blog from './Components/Blog/Blog';
 import ErrorPage from './Layout/ErrorPage';
-import Card from './Components/Card/Card';
+
 
 function App() {
   const router= createBrowserRouter([
