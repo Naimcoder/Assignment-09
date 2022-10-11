@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+#Welcome to our Website---EduKul||Quiz----
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project was tailwind with [Create React App](https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Naimcoder).
 
 ## Available Scripts
 
