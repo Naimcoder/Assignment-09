@@ -1,11 +1,11 @@
-#Welcome to our Website---EduKul||Quiz----
+# Welcome to our Website ----EduKul||Quiz
 
 
-This project was tailwind with [Create React App](https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Naimcoder).
+WebSite Live Link [Live Link]...
+or...(https://edukul-quiz.netlify.app/)live link
 
-## Available Scripts
-
-In the project directory, you can run:
+## Details about our Website..........
+[image](../assignment-09/src/logo.png)
 
 ### `npm start`
 
