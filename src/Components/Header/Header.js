@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../../logo.png';
 
 const Header = () => {
@@ -19,36 +19,40 @@ const Header = () => {
        </Link>
         <ul className=' flex items-center hidden space-x-8 lg:flex'>
           <li>
-            <Link
+            <NavLink
               to="/home"
               aria-label="Our product"
               title="Our product"
-              className="font-bold tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
+              className={({isActive})=> isActive? 'font-bold tracking-wide text-orange-700  transition-colors duration-200 hover:text-deep-purple-accent-400'
+              :'font-bold tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'}
             >
               HOME
-            </Link>
+            </NavLink>
           </li>
           <li>
           </li>
           <li>
-            <Link
+            <NavLink
               to="/statistics"
               aria-label="Product pricing"
               title="Product pricing"
-              className="font-bold tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
+
+               className={({isActive})=> isActive? 'font-bold tracking-wide text-orange-700  transition-colors duration-200 hover:text-deep-purple-accent-400'
+              :'font-bold tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'}
             >
               STATISTICS
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link
+            <NavLink
               to="/blog"
               aria-label="About us"
               title="About us"
-              className=" tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400 font-bold"
+               className={({isActive})=> isActive? 'font-bold tracking-wide text-orange-700  transition-colors duration-200 hover:text-deep-purple-accent-400'
+              :'font-bold tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'}
             >
              BLOG
-            </Link>
+            </NavLink>
           </li>
         </ul>
         <div className="lg:hidden">
@@ -78,7 +82,7 @@ const Header = () => {
               <div className="p-5 uppercase bg-black border rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <div>
-                    <Link
+                    <NavLink
                       to="/"
                       aria-label="Company"
                       title="Company"
@@ -88,7 +92,7 @@ const Header = () => {
                       <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                        <img className='w-40' src={logo} alt="" />
                       </span>
-                    </Link>
+                    </NavLink>
                   </div>
                   <div>
                     <button
@@ -109,36 +113,36 @@ const Header = () => {
                 <nav>
                   <ul className="space-y-4">
                     <li>
-                      <Link
+                      <NavLink
                         to="/home"
                         aria-label="Our product"
                         title="Our product"
                         className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Home
-                      </Link>
+                      </NavLink>
                     </li>
                     <li>
                     </li>
                     <li>
-                      <Link
+                      <NavLink
                         to="/statistics"
                         aria-label="Product pricing"
                         title="Product pricing"
                         className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Statistics
-                      </Link>
+                      </NavLink>
                     </li>
                     <li>
-                      <Link
+                      <NavLink
                         to="/blog"
                         aria-label="About us"
                         title="About us"
                         className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                        Blog
-                      </Link>
+                      </NavLink>
                     </li>
                     <li>
                      
